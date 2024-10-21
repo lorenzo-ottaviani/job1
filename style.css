@@ -1,0 +1,24 @@
+/* Style par défault de la page web : pour les écrans ayant une résolution supérieure à 1600 */
+body{
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    background-color: #88c1d0;
+    height: 300px;
+    width: 500px;
+    margin:10px 10px 0px 0px;
+}
+
+/* Style pour les écrans ayant une résolution comprise entre 768px et 1599px */
+@media only screen and (min-width: 768px) and (max-width: 1599px) {
+    body{
+        flex-wrap: wrap;
+        }
+    }
+/* Style pour les écrans ayant une résolution inférieure à 768px */
+@media only screen and (max-width: 767px) {
+    body{
+        flex-direction: column;
+    }
+}
