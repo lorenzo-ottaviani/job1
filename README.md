@@ -1,2 +1,2 @@
 # Projet d'apprentissage des @mediaqueries
-Languages utilisés : CSS et HTML
+Langages utilisés : CSS et HTML
